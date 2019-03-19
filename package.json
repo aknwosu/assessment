@@ -1,0 +1,31 @@
+{
+  "name": "newby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'tests'",
+    "start": "babel-watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.1.0",
+    "sequelize-cli": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-cli": "^6.26.0",
+    "babel-watch": "^7.0.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
